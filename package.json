@@ -19,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/lilitha121/bootcamp-terminal-tests/issues"
   },
-  "homepage": "https://github.com/lilitha121/bootcamp-terminal-tests#readme"
+  "homepage": "https://github.com/lilitha121/bootcamp-terminal-tests#readme",
+  "devDependencies": {
+    "mocha": "^8.1.1"
+  },
+  "dependencies": {
+    "12": "^1.0.2"
+  }
 }
