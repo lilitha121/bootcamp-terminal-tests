@@ -7,7 +7,7 @@ describe('The isWeekday function', function () {
         assert.equal(true, isWeekday("Friday"));
     });
 
-    // it("should return false for CY 123-223", function () {
-    //     assert.equal(false, isWeekday("CJ 123-223"));
-    // });
+    it("should find out if the parameter passed in is not a day of the week ", function () {
+        assert.equal(false, isWeekday("Saturday"));
+    });
 });

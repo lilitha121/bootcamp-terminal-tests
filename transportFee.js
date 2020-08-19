@@ -1,4 +1,4 @@
-module.export = function(shift){
+module.exports = function(shift){
 //var transportFee = function(shift){
     //console.log(shift)
     if ( shift === 'morning'){

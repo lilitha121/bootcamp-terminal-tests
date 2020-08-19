@@ -7,7 +7,7 @@ describe('The regCheck function', function () {
         assert.equal(false, regCheck("reg"));
     });
 
-    // it("should return false for CY 123-223", function () {
-    //     assert.equal(false, regCheck("location"));
-    // });
+    it("should return a regCheck that can check all GP registration plates.", function () {
+        assert.equal(false, regCheck("location"));
+    });
 });
