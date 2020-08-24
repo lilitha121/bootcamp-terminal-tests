@@ -11,7 +11,7 @@ describe('The countAllFromTown function', function () {
         assert.equal(false, countAllFromTown("CJ 123-223"));
     });
 
-    it(" should return number registration numbers in the string that is for that town.", function () {
-        assert.equal(0, countAllFromTown("CJ 123-223"));
+    it(" should return number registration location in the string that is for that town.", function () {
+        assert.deepEqual(0, countAllFromTown("GP,CA,CJ"));
     });
 });
