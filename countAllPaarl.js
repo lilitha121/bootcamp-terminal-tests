@@ -7,7 +7,7 @@ module.exports = function(reg){
           if (regNumbersPaarl[i].startsWith('CJ')){
             paarl.push(regNumbersPaarl[i])
           }
-         //return paarl 
+         
         }
           return paarl
         

@@ -1,6 +1,6 @@
 module.exports = function(bill) {
 
-  //console.log(bill)
+ 
   var phone = 0;
   var totalBill = bill.split(',')
   for (var i = 0; i < totalBill.length; i++) {

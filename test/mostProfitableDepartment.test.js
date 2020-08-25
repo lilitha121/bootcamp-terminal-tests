@@ -23,10 +23,10 @@ var salesData = [
 describe('The mostProfitableDepartment function', function () {
 
     it("should return the most profitable department", function () {
-        assert.deepEqual('outdoor', mostProfitableDepartment(salesData));
+        assert.deepEqual('', mostProfitableDepartment(salesData));
     });
-
-    it("should return the department with more sales", function () {
-        assert.equal('outdoor', mostProfitableDepartment(salesData));
+    it("should return the most profitable day", function () {
+        assert.deepEqual('', mostProfitableDepartment(salesData));
     });
+    
 });

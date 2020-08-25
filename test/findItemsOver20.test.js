@@ -17,11 +17,20 @@ describe('The findItemsOver20 function', function () {
     it('should return all the products that have a quantity higher than 20', function () {
         assert.deepEqual(result, findItemsOver20(itemList));
     });
-    //     it('should greet Indiphile correctly', function(){
+  
+    var items = [
+        { name: 'naartjie', qty: 9 },
+        { name: 'peach', qty: 30 },
+        { name: 'kiwi', qty: 22 },
+        { name: 'apricot', qty: 3 },
+    ];
 
-    //         assert.equal('Hello, Indiphile', findItemsOver20('Indiphile'));
-    //     });
-    it('should return all the products that have a quantity more than 20', function () {
-        assert.deepEqual(result, findItemsOver20(itemList));
+    var total = [
+                { name: 'peach', qty: 30 },
+                { name: 'kiwi', qty: 22 }
+            ];
+
+    it('should return the names of all the products that have a quantity more than 20 but less than 30', function () {
+        assert.deepEqual(total, findItemsOver20(items));
     });
 });

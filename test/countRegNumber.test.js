@@ -3,7 +3,7 @@ let countRegNumber = require("../countRegNumber");
 
 describe('The countRegNumber function', function () {
 
-    it("should  take a parameter string with registration numbers separated with commas", function () {
+    it("should return zero registration numbers", function () {
         assert.equal(0, countRegNumber("reg"));
     });
 

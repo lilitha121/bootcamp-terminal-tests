@@ -1,5 +1,5 @@
 module.exports = function(reg,loc){
-        //console.log(loc)
+       
       var town = [];
       var regNumbers = reg.split(',');
       for (var i=0;i<regNumbers.length;i++){
@@ -7,7 +7,7 @@ module.exports = function(reg,loc){
           if (regAllTown.startsWith(loc)){
         town.push(regAllTown)
           }
-        //console.log(town)
+       
       }
           return town.length;
         

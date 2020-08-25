@@ -10,6 +10,6 @@ module.exports = function(reg){
         }
             return paarl.length;
           
-          //console.log(paarl)
+      
         
         };
