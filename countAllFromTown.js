@@ -10,7 +10,5 @@ module.exports = function(reg,loc){
        
       }
           return town.length;
-        
-        console.log(town)
       
       };
